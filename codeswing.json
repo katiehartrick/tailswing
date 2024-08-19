@@ -1,0 +1,5 @@
+{
+  "scripts": ["https://cdn.tailwindcss.com"],
+  "styles": [],
+  "layout": ["splitBottom"]
+}

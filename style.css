@@ -1,0 +1,53 @@
+.panel {
+	display: flex;
+	padding: 2.5rem;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 0.5rem;
+	flex: 1 0 0;
+		max-width: 400px;
+		border-radius: 1rem;
+	background: radial-gradient(355.62% 148.05% at 62.3% -28.45%, rgba(0, 0, 0, 0.00) 0%, #000 100%), linear-gradient(180deg, rgba(0, 0, 0, 0.90) 0%, rgba(0, 0, 0, 0.00) 50%), linear-gradient(0deg, #20947F 0%, #20947F 100%), url(https://picsum.photos/id/237/600/420.jpg) lightgray 50% / cover no-repeat;
+
+	background-blend-mode: normal, normal, multiply, normal;
+	/* drop-shadow/box-medium */
+	box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.10);
+}
+
+.subheading {
+	color: var(--brand-teal-500-core, #26B298);
+	font-feature-settings: 'liga' off, 'clig' off;
+
+	/* overline */
+	font-family: Barlow;
+	font-size: 0.83313rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 150%; /* 1.24969rem */
+	letter-spacing: 0.0625rem;
+	text-transform: uppercase;
+}
+
+p {
+	color: var(--brand-white, #FFF);
+
+	/* Body/standard/basic */
+	font-family: Barlow;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%; /* 1.5rem */
+}
+
+.heading {
+	color: var(--brand-white, #FFF);
+
+	/* Heading/XXS/basic */
+	font-family: Barlow;
+	font-size: 1.44rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 130%; /* 1.872rem */
+	text-decoration-line: underline;
+}
